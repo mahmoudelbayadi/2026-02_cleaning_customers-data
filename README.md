@@ -23,7 +23,7 @@
 
 ```
 Input:  customers_raw.csv   (messy)
-Output: customers_clean.csv (standardized) + cleaning_report.txt
+Output: customers_clean.csv (standardized)
 ```
 
 | العمود | قبل | بعد |
@@ -41,11 +41,11 @@ Output: customers_clean.csv (standardized) + cleaning_report.txt
 
 ```
 2026-02_cleaning_customers-data/
+├── README.md                    ← project overview & instructions
 ├── inputs/
 │   └── customers_raw.csv        ← dirty data (input)
 ├── outputs/
-│   ├── customers_clean.csv      ← clean data (output)
-│   └── cleaning_report.txt      ← what changed
+│   └── customers_clean.csv      ← clean data (output)
 └── scripts/
     └── clean_customers_data.py  ← main script
 ```
